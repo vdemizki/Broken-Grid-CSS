@@ -1,0 +1,21 @@
+{
+  "name": "Broken-Grid-CSS",
+  "version": "1.0.0",
+  "description": "p",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vdemizki/Broken-Grid-CSS"
+  },
+  "author": "vdemizki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vdemizki/Broken-Grid-CSS/issues"
+  },
+  "homepage": "https://github.com/vdemizki/Broken-Grid-CSS#readme",
+  "dependencies": {
+  }
+}
