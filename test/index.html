@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Broken-Grid-CSS</title>
+    <link rel="stylesheet" href="../code/css/broken-grid.css">
+
+    <style media="screen">
+      .grid-item {
+        background-color: rgba(0, 0, 0, 0.8);
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        font-size: 30px;
+        text-align: center;
+        grid-column: 5/6;
+        grid-row: 2/4;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container columns-6 rows-6 display-grid-6x6">
+      <div class="grid-item"></div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,88 @@
+/*
+  Broken-Grid CSS.
+  Learn more ~ https://github.com/vdemizki/Broken-Grid-CSS
+  Licensed under MIT.
+*/
+
+/*
+  little reset
+  ------------------------------------------------------------------------------
+*/
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+/*
+  display grid-lines
+  ------------------------------------------------------------------------------
+*/
+.display-grid-6x6 {
+  background-image: url("../images/6x6.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.display-grid-12x12 {
+  background-image: url("../images/12x12.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.display-grid-24x24 {
+  background-image: url("../images/24x24.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+/*
+  define container
+  ------------------------------------------------------------------------------
+*/
+.container {
+  display: grid;
+  height: 100vh;
+}
+
+/*
+  different gaps
+  ------------------------------------------------------------------------------
+*/
+.gap-5px, .gap-small{
+  grid-gap: 5px;
+}
+.gap-15px, .gap-middle{
+  grid-gap: 15px;
+}
+.gap-50px , .gap-huge{
+  grid-gap: 50px;
+}
+/*
+  container with six rows or six columns
+  ------------------------------------------------------------------------------
+*/
+.columns-6 {
+  grid-template-columns: repeat(6, 1fr);
+}
+.rows-6 {
+  grid-template-rows: repeat(6, 1fr);
+}
+
+/*
+  container with 12 rows or 12 columns
+  ------------------------------------------------------------------------------
+*/
+.columns-12 {
+  grid-template-columns: repeat(12, 1fr);
+}
+.rows-12 {
+  grid-template-rows: repeat(12, 1fr);
+}
+
+/*
+  container with 24 rows or 24 columns
+  ------------------------------------------------------------------------------
+*/
+.columns-24 {
+  grid-template-columns: repeat(24, 1fr);
+}
+.rows-24 {
+  grid-template-rows: repeat(24, 1fr);
+}
