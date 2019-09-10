@@ -1,37 +1,18 @@
-## Welcome to GitHub Pages
+## Welcome to Broken-Grid-CSS
 
-You can use the [editor on GitHub](https://github.com/vdemizki/Broken-Grid-CSS/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+#### Development of a CSS framework based on CSS Grid Layout for the implementation of the Broken-Grid approach. Broken-Grid CSS follows the Atomic CSS principle to make the development of a website faster and more comfortable. Due to the special feature of Atomic CSS, it is no longer necessary for the user to pay attention to the CSS, but can design the website in HTML.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### What is Broken-Grid? 
+Broken-Grid is a design method to make a website unusual and individual. The positioning of the elements respectively the overlapping of the elements is the main feature of Broken Grid. Broken Grid is ideal for the presentation of products or people who want to stand out from the crowd. The following illustration shows how a website could look like using this method. 
 
-### Markdown
+### Getting started
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+#### Use locally
+Just download the repository and copy the stylesheet <link> into your HTML document <head> and you can use it.
+ 
+```
+<link rel="stylesheet" href="../code/css/broken-grid.css">
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Layout - Grid
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/vdemizki/Broken-Grid-CSS/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
