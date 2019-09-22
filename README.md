@@ -31,7 +31,7 @@ With the class `grid-container` you define a grid-container. This contains all o
 With the class `columns` and `rows` you define the columns and rows of the grid-container. Below is an example of how to define six columns and six rows.
 
 ```
-    <div class="container columns-6 rows-6"></div>
+    <div class="grid-container columns-6 rows-6"></div>
 ```
 Placing elements (grid items) on the grid is something special with CSS Grid Layout. In the following figure the example grid with six columns and six rows is shown visually. 
 
@@ -56,7 +56,7 @@ With the classes `colum-span-` or `row-span-` you can place elements without pay
 The `display` class is a help to see the corresponding grid.
 
 ```
-    <div class="container columns-3 rows-3 display-grid-6x6"></div>
+    <div class="grid-container columns-3 rows-3 display-grid-6x6"></div>
 ```
 | Effect            | Classname           |
 | ----------------: |:--------------------| 
