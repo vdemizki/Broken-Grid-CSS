@@ -21,10 +21,10 @@ Just download the repository and copy the stylesheet <link> into your HTML docum
 This framework concentrates solely on the layout and offers many functions for the individual design of a grid and the placement of elements (grid items). Broken-Grid CSS can define a grid with a maximum of 24 columns and rows, which guarantees a larger design possibility. In addition, columns and rows sizes can be mixed with each other, so for example a grid can consist of five columns and 14 rows.
 
 #### Container
-With the class `container` you define a grid-container. This contains all other elements that use this grid. 
+With the class `grid-container` you define a grid-container. This contains all other elements that use this grid. 
 
 ```
-    <div class="container"></div>
+    <div class="grid-container"></div>
 ```
 
 #### Columns & Rows
